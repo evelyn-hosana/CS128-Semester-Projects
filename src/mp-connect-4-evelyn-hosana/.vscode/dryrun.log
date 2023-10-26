@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vagrant/src/mp-connect-4-evelyn-hosana'
+touch src/board.cc
+clang++ -std=c++20 -g -fstandalone-debug -O0 -Wall -Wextra -Werror -pedantic -I includes/ tests/tests.cc src/board.cc -o bin/tests
+make: Leaving directory '/home/vagrant/src/mp-connect-4-evelyn-hosana'
+ 

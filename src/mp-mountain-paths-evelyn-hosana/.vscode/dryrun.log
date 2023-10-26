@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vagrant/src/mp-mountain-paths-evelyn-hosana'
+clang++ -std=c++20 -g -fstandalone-debug -Wall -Wextra -Werror -pedantic -Iincludes/ -c tests/catch.cc -o obj/catch.o
+ 
+clang++ -std=c++20 -g -fstandalone-debug -Wall -Wextra -Werror -pedantic -Iincludes/ tests/tests.cc obj/catch.o src/color.cc src/elevation_dataset.cc src/grayscale_image.cc src/path_image.cc src/path.cc -o bin/tests
+make: Leaving directory '/home/vagrant/src/mp-mountain-paths-evelyn-hosana'
+ 

@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vagrant/src/mp-illini-book-evelyn-hosana'
+clang++ -std=c++20 -g -fstandalone-debug -fsanitize=address,null -fno-omit-frame-pointer -Wall -Wextra -Werror -pedantic -Iincludes/ src/driver.cc src/illini_book.cc src/utilities.cc -o bin/exec
+bin/exec
+make: Leaving directory '/home/vagrant/src/mp-illini-book-evelyn-hosana'
+ 

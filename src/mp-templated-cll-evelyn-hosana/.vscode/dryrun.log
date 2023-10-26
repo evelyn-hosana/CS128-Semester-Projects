@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/vagrant/src/mp-templated-cll-evelyn-hosana'
+clang++ -std=c++20 -g -fstandalone-debug -Wall -Wextra -Werror -pedantic -Iincludes/ ./src/driver.cc ./src/circular-linked-list.cc -o bin/exec
+make: Leaving directory '/home/vagrant/src/mp-templated-cll-evelyn-hosana'
+ 
